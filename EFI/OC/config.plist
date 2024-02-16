@@ -216,6 +216,14 @@
 				<key>Path</key>
 				<string>XSDT.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-BRG0.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-BRG0.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -292,7 +300,15 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict/>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>device-id</key>
+				<data>/3MAAA==</data>
+				<key>model</key>
+				<string>AMD Radeon RX 6650 XT</string>
+			</dict>
+		</dict>
 		<key>Delete</key>
 		<dict/>
 	</dict>
