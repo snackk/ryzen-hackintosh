@@ -217,6 +217,10 @@
 				<string>XSDT.aml</string>
 			</dict>
 		</array>
+		<key>Delete</key>
+		<array/>
+		<key>Patch</key>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -1340,6 +1344,8 @@
 		<array/>
 		<key>Boot</key>
 		<dict>
+			<key>InstanceIdentifier</key>
+			<string></string>
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
 			<key>HibernateMode</key>
@@ -1372,7 +1378,7 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
@@ -1384,9 +1390,9 @@
 			<key>LogModules</key>
 			<string>*</string>
 			<key>SysReport</key>
-			<true/>
+			<false/>
 			<key>Target</key>
-			<integer>67</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -1469,7 +1475,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera -radcodec</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
