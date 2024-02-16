@@ -10,19 +10,211 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC-USBX-DESKTOP.aml</string>
+				<string>AAFT-1.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EC-USBX-DESKTOP.aml</string>
+				<string>AAFT-1.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-BRG0.aml</string>
+				<string>APIC-1.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-BRG0.aml</string>
+				<string>APIC-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>BGRT-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>BGRT-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>CDIT-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>CDIT-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>CRAT-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>CRAT-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>DSDT.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>DSDT.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>FACP-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>FACP-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>FIDT-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>FIDT-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>FPDT-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>FPDT-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>HPET-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>HPET-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>IVRS-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>IVRS-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>MCFG-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>MCFG-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>PCCT-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>PCCT-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>RSDP.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>RSDP.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>RSDT.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>RSDT.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-2.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-2.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-3.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-3.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-4.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-4.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-5.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-5.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-6.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-6.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-7.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-7.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>TPM2-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>TPM2-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>VFCT-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>VFCT-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>WSMT-1.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>WSMT-1.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>XSDT.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>XSDT.aml</string>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -62,9 +254,9 @@
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
-			<false/>
-			<key>EnableWriteUnprotector</key>
 			<true/>
+			<key>EnableWriteUnprotector</key>
+			<false/>
 			<key>FixupAppleEfiImages</key>
 			<false/>
 			<key>ForceBooterSignature</key>
@@ -84,7 +276,7 @@
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
 			<key>ResizeAppleGpuBars</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
@@ -401,6 +593,21 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 		</array>
+		<key>Block</key>
+		<array/>
+		<key>Emulate</key>
+		<dict>
+			<key>Cpuid1Data</key>
+			<data></data>
+			<key>Cpuid1Mask</key>
+			<data></data>
+			<key>DummyPowerManagement</key>
+			<true/>
+			<key>MaxKernel</key>
+			<string></string>
+			<key>MinKernel</key>
+			<string></string>
+		</dict>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -1064,21 +1271,6 @@
 				<integer>0</integer>
 			</dict>
 		</array>
-		<key>Block</key>
-		<array/>
-		<key>Emulate</key>
-		<dict>
-			<key>Cpuid1Data</key>
-			<data></data>
-			<key>Cpuid1Mask</key>
-			<data></data>
-			<key>DummyPowerManagement</key>
-			<true/>
-			<key>MaxKernel</key>
-			<string></string>
-			<key>MinKernel</key>
-			<string></string>
-		</dict>
 		<key>Force</key>
 		<array/>
 		<key>Quirks</key>
@@ -1155,7 +1347,7 @@
 			<key>HibernateSkipsPicker</key>
 			<false/>
 			<key>HideAuxiliary</key>
-			<false/>
+			<true/>
 			<key>LauncherOption</key>
 			<string>Disabled</string>
 			<key>LauncherPath</key>
@@ -1165,22 +1357,22 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>External</string>
+			<string>Builtin</string>
 			<key>PickerVariant</key>
-			<string>Acidanthera\GoldenGate</string>
+			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
-			<true/>
+			<false/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>3</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
@@ -1192,9 +1384,9 @@
 			<key>LogModules</key>
 			<string>*</string>
 			<key>SysReport</key>
-			<false/>
+			<true/>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -1213,7 +1405,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>15</integer>
+			<integer>6</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
@@ -1223,7 +1415,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Disabled</string>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1264,10 +1456,20 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+			<dict>
+				<key>DefaultBackgroundColor</key>
+				<data>v7+/AA==</data>
+			</dict>
+			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+			<dict>
+				<key>rtc-blacklist</key>
+				<data></data>
+			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>agdpmod=pikera npci=0x2000 unfairgva=1 alcid=11 debug=0x100 keepsyms=1</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=1 agdpmod=pikera -radcodec</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1276,9 +1478,18 @@
 		</dict>
 		<key>Delete</key>
 		<dict>
+			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+			<array>
+				<string>DefaultBackgroundColor</string>
+			</array>
+			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+			<array>
+				<string>rtc-blacklist</string>
+			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+				<string>ForceDisplayRotationInEFI</string>
 			</array>
 		</dict>
 		<key>LegacyOverwrite</key>
