@@ -216,14 +216,6 @@
 				<key>Path</key>
 				<string>XSDT.aml</string>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-BRG0.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-BRG0.aml</string>
-			</dict>
 		</array>
 		<key>Delete</key>
 		<array/>
@@ -300,15 +292,7 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>device-id</key>
-				<data>/3MAAA==</data>
-				<key>model</key>
-				<string>AMD Radeon RX 6650 XT</string>
-			</dict>
-		</dict>
+		<dict/>
 		<key>Delete</key>
 		<dict/>
 	</dict>
@@ -345,24 +329,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VirtualSMC</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
-				<key>Comment</key>
-				<string>WhateverGreen.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -597,6 +563,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelBTPatcher</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>NootRX.kext</string>
+				<key>Comment</key>
+				<string>NootRX.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/NootRX</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1483,7 +1467,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=1 -radcodec agdpmod=pikera</string>
+				<string>keepsyms=1 debug=0x100 agdpmod=pikera</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
