@@ -34,7 +34,7 @@ MacOs Sonoma 14.3.1 running with OpenCore 1.0.4
 | SMCProcessor | -- |
 | SMCSuperIO | -- |
 
-Not Working / Current Issues
+### Not Working / Current Issues
 - Bluetooth does not work;
 - Volume up / down does not work;
 - Virtualization / Docker desktop ( limitation on using AMD chip );
