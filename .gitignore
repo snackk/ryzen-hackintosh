@@ -1,0 +1,52 @@
+# OpenCore EFI Configuration
+# Ignore everything in the EFI folder
+EFI/*
+
+# But don't ignore these specific files and folders
+!EFI/BOOT/
+!EFI/OC/
+!EFI/OC/ACPI/
+!EFI/OC/Drivers/
+!EFI/OC/Kexts/
+!EFI/OC/Resources/
+!EFI/OC/Tools/
+!EFI/OC/config.plist
+
+# Ignore sensitive information
+**/Serial*
+**/MLB*
+**/ROM*
+**/SystemUUID*
+
+# Ignore temporary files and logs
+*.log
+*.tmp
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
